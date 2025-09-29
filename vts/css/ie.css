@@ -1,0 +1,35 @@
+body {
+	line-height: 1;
+}
+ol, 
+ul {list-style: none;}
+blockquote, 
+q {quotes: none;}
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after {content: '';}
+.detail-block:after {filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#00fbfbfb',GradientType=1 )";}
+.generate{filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#00f5f5f5',GradientType=0 )";}
+.talk-bubble.lt-bubble{filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#66fdfbfa',GradientType=1)";}
+.talk-bubble.rt-bubble{filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccfd1', endColorstr='#e6fdfbfa',GradientType=1 )";}
+.detail-block .details:after{filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#fff',GradientType=0 )";}
+.detail-block .details:first-child:after{filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#fff',GradientType=0 )";}
+.testimonial-block.stretch-block:after{border:none;}
+.btn-play-video{background: #000;}
+.footer-logo{padding: 0;}
+.footer-nav{padding-bottom: 6px;}
+.rt-bubble:after{border-left: 13px solid #cccfd1;}
+.lt-bubble:before {
+	background: none;
+	border-bottom: 20px solid transparent;
+	border-right: 13px solid #dcdcdc;
+	border-top: 20px solid transparent;
+	content: "";
+	height: 0;
+	right: 100%;
+	margin: -19px 0 0 7px;
+	position: absolute;
+	top: 50%;
+	width: 0;
+}
