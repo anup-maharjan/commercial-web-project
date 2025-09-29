@@ -1,0 +1,4 @@
+.button,
+.btn-holder > .btn-readmore{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff725e', endColorstr='#f25e4a',GradientType=0 );}
+.button:hover,
+.btn-holder > .btn-readmore:hover{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb5e4a', endColorstr='#de4a36',GradientType=0 );}
